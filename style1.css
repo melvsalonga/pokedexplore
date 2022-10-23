@@ -1,0 +1,163 @@
+*{
+    font-family: sans-serif;
+}
+body{
+background: #424242 url(resources/images/body_bg.png);
+
+}
+.input1{
+border: 2px solid #cccccc;
+width: 30%;
+padding: 9px;
+margin: 10px auto;
+border-radius: 5px;
+}
+a.pokebutton{
+background: #fa3d31 ;
+color: #ffffff;
+padding: 12px 12px;
+border: none;
+border-radius: 5px;
+margin-left: 2%;
+}
+.pokebutton:hover{
+opacity: 80%;
+} 
+.searchbutton{
+background: #fa3d31 url(resources/images/pokeball.png);
+background-repeat: no-repeat;
+background-size: 80%;
+background-position: center;
+color: #ffffff;
+padding: 12px 12px;
+border: none;
+border-radius: 5px;
+}
+.searchbutton:hover{
+opacity: 80%;
+} 
+
+.searchinfo{
+color:white;
+max-width:50%;
+}
+a.delpoke {
+background-color: #d13737;
+margin-top:10%;
+border-radius: 5px;
+color: white;
+padding: 11px;
+font-size: 16px;
+border: none;
+text-decoration:none;
+}
+a.delpoke:hover {
+text-decoration:none;
+}     
+.dropbtn {
+background-color: #4CAF50;
+border-radius: 5px;
+color: white;
+padding: 11px;
+font-size: 16px;
+border: none;
+}
+.addpoke {
+background-color: #4CAF50;
+margin-top:10%;
+border-radius: 5px;
+color: white;
+padding: 11px;
+font-size: 16px;
+border: none;
+text-decoration:none;
+}
+.addpoke:hover {
+text-decoration:none;
+}
+
+
+.dropdown {
+position: relative;
+ display: inline-block;
+ margin-left:2%;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+max-height:200px;
+overflow:scroll;
+overflow-x:hidden;
+
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #3e8e41;
+}
+.logoutbutton{
+float:right;
+text-decoration: none;
+background: #555555;
+color: #ffffff;
+padding: 5px 8px;
+border: none;
+border-radius: 4px;
+}
+.logoutbutton:hover{
+opacity: 80%;
+text-decoration: none;
+color: #ffffff;
+}      
+
+
+/* .mainrow{
+    cursor:pointer;
+    text-align:center;
+}
+.mainrow:hover{
+    color:black;
+    font-weight:bold;
+    text-align:center;
+} */
+.hiddenrow{
+    color: black;
+    /* background-color: #80ccff; */
+}
+.center_content{
+    text-align:center;
+
+}
+/* .center_content:hover{
+    color:black;
+    font-weight:bold;
+    text-align:center;
+} */
+#tablecon{
+    background: #fff url(resources/images/container_bg.png);
+    border-radius:10px;
+    padding:0px;
+    padding-bottom:20px;
+    width:80%;
+
+
+}
